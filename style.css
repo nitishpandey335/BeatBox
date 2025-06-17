@@ -9,30 +9,32 @@ body {
 }
 
 .app-header {
+  width: 100%;
+  background: linear-gradient(145deg, #2c2c2c, #1a1a1a);
+  color: #fff;
+  padding: 1.5rem 1rem;
   text-align: center;
-  padding: 2rem;
-  background-color: rgba(0, 0, 0, 0.6);
-  border-bottom: 2px solid #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  border-bottom: 2px solid #555;
 }
 
 .header-gif {
-  vertical-align: middle;
   border-radius: 50%;
+  border: 2px solid #fff;
+  box-shadow: 0 0 10px #ffcc00;
 }
-
-.title-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 1rem;
+.title-container h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 0;
+  text-shadow: 1px 1px 2px #000;
 }
-
 .tagline {
-  font-size: 1.2rem;
   margin-top: 0.5rem;
-  color: #ccc;
+  font-size: 1.1rem;
+  font-style: italic;
+  color: #ffddaa;
 }
-
 .sequencer {
   padding: 1rem;
   flex: 1;
@@ -43,6 +45,8 @@ body {
   align-items: center;
   gap: 1rem;
   margin-bottom: 0.5rem;
+
+  text-align: center;
 }
 
 .controls h2 {
@@ -56,23 +60,33 @@ select {
   border-radius: 4px;
 }
 
-.pad {
-  width: 40px;
-  height: 40px;
-  margin: 5px;
-  border-radius: 5px;
-  background-color: #333;
-  border: 2px solid #777;
-  display: inline-block;
-  cursor: pointer;
-  transition: all 0.3s ease;
+.kick {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 15px; /* spacing between pads */
+  min-height: 50px; /* center vertically */
 }
 
-.pad.active {
-  background-color: #00f2fe;
-  border-color: #a6ffcb;
-  box-shadow: 0 0 10px #00f2fe;
+.pad {
+  width: 100px;
+  height: 50px;
+  background-color: #111;
+  border: none;
+  border-radius: 25px;
+  background-color: #e2d5d5;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
+  transition: all 0.3s ease;
+  cursor: pointer;
 }
+
+.pad:hover {
+  transform: scale(1.1);
+  background-color: #080808;
+  box-shadow: 0 0 20px #1abc9c, 0 0 30px #9b59b6;
+}
+
 
 .controls-bottom {
   margin: 2rem 0;
@@ -127,5 +141,12 @@ select {
 }
 
 footer {
+  width: 100%;
+  background-color: #222;
+  color: #ccc;
+  text-align: center;
+  padding: 15px 10px;
+  font-size: 0.95rem;
+  border-top: 2px solid #444;
   margin-top: auto;
 }
