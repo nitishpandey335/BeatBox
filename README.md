@@ -4,7 +4,7 @@ BeatMaker is an interactive web-based drum machine that allows you to create bea
 
 ![BeatMaker Screenshot](/vibe-cat.gif)
 
-[Live Demo](https://adarshnjena.github.io/BeatMaker.github.io/)
+[Live Demo]()
 
 ## 🎵 Features
 
@@ -19,7 +19,7 @@ BeatMaker is an interactive web-based drum machine that allows you to create bea
 ## 🚀 Getting Started
 
 ### Option 1: Use Online
-Simply visit the [live demo](https://adarshnjena.github.io/BeatMaker.github.io/) to start creating beats instantly.
+Simply visit the [live demo]() to start creating beats instantly.
 
 ### Option 2: Run Locally
 1. Clone the repository:
@@ -51,7 +51,7 @@ Contributions are welcome! If you'd like to contribute, please:
 
 ## 🐛 Reporting Issues
 
-Found a bug or have a feature request? Please [open an issue](https://github.com/adarshnjena/BeatMaker.github.io/issues) on GitHub.
+Found a bug or have a feature request? Please [open an issue]() on GitHub.
 
 ## 📄 License
 
@@ -60,7 +60,6 @@ This project is licensed under the [MIT License](LICENSE.txt).
 ## 🙏 Acknowledgements
 
 - Drum samples from various free sources
-- Inspired by [devEd](https://www.youtube.com/c/DevEd)'s tutorials
 - Thanks to all contributors who have helped improve this project
 
 ---
