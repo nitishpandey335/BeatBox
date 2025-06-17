@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  font-family: 'Orbitron', sans-serif;
+  background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-header {
+  text-align: center;
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-bottom: 2px solid #fff;
+}
+
+.header-gif {
+  vertical-align: middle;
+  border-radius: 50%;
+}
+
+.title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.tagline {
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+  color: #ccc;
+}
+
+.sequencer {
+  padding: 1rem;
+  flex: 1;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.controls h2 {
+  margin: 0;
+}
+
+select {
+  padding: 0.4rem;
+  background: #fff;
+  color: #000;
+  border-radius: 4px;
+}
+
+.pad {
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  border-radius: 5px;
+  background-color: #333;
+  border: 2px solid #777;
+  display: inline-block;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.pad.active {
+  background-color: #00f2fe;
+  border-color: #a6ffcb;
+  box-shadow: 0 0 10px #00f2fe;
+}
+
+.controls-bottom {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.play {
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  background: #6a11cb;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.play:hover {
+  background: #2575fc;
+}
+
+.tempo-control {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.tempo-slider-container {
+  display: inline-block;
+  background: #1e1e2f;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid #444;
+}
+
+.tempo-label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.slider-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.tempo-input {
+  width: 60px;
+  padding: 0.3rem;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+}
+
+footer {
+  margin-top: auto;
+}
